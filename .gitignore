@@ -1,0 +1,129 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.log
+*.pid
+
+# ==================== Virtual Environments ====================
+.venv/
+venv/
+virtualenv/
+
+# ==================== Environment Variables ====================
+.env
+.env.local
+.env.*.local
+# .env.project   # 如果不想把项目ID上传，可以忽略（但建议保留以记录端口分配）
+
+# ==================== Python Package Manager ====================
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+MANIFEST
+
+# ==================== Next.js / Node ====================
+node_modules/
+.npm/
+.yarn/
+.yarn-cache/
+.next/
+out/
+dist/
+build/
+.vercel
+*.tsbuildinfo
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==================== Docker ====================
+docker-compose.override.yml
+.dockerignore
+*.dockerignore
+Dockerfile.dev
+Dockerfile.prod
+
+# ==================== Data & Cache ====================
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+chroma_db/
+vectorstore/
+uploads/
+downloads/
+*.pkl
+*.h5
+*.parquet
+*.arrow
+
+# ==================== Hugging Face Models ====================
+# 如果不想把模型缓存上传到git，可以忽略整个缓存目录（但通常建议不git）
+# 由于我们通过挂载共享缓存，实际模型不在项目目录内，所以一般不需要
+# 但如果项目内有本地模型文件，则忽略：
+models/
+*.safetensors
+*.bin
+*.onnx
+
+# ==================== IDE / Editor ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# ==================== OS ====================
+.DS_Store
+.directory
+Thumbs.db
+*.log
+*.tmp
+
+# ==================== Misc ====================
+*.bak
+*.orig
+*.rej
+*.patch
+*.diff
+*.secret
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
